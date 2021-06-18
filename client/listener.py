@@ -1,4 +1,4 @@
-from client.bot import *
+from bot import *
 
 def listener_():
     bot = commands.Bot(command_prefix='$')

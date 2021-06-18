@@ -1,4 +1,5 @@
 import os
+from time import sleep
 
 def pip_os_(module):
     if os.name == 'nt':
@@ -18,7 +19,7 @@ def boot():
     if os.name == 'nt':
         os.system('py3 /client/bot.py')
     else:
-        os.system('python3 /client/bot.py')
+        os.system('python3 client/bot.py')
 
 try:
     import dotenv
